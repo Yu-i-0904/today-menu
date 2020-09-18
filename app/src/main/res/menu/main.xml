@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home_text"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/main"
+        android:title="@string/main_text" >
+        <menu >
+            <item
+                android:id="@+id/staek"
+                android:title="@string/steak_text" />
+            <item
+                android:id="@+id/burger"
+                android:title="@string/burger_text" />
+            <item
+                android:id="@+id/locomoco"
+                android:title="@string/locomoco_text" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/thumb"
+        android:title="@string/thumb_text" >
+        <menu >
+            <item
+                android:id="@+id/bread"
+                android:title="@string/bread_text" />
+            <item
+                android:id="@+id/poki"
+                android:title="@string/poki_text" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/drink"
+        android:title="@string/drink_text" >
+        <menu >
+            <item
+                android:id="@+id/beer"
+                android:title="@string/beer_text" />
+        </menu>
+    </item>
+</menu>

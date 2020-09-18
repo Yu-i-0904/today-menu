@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Today Menu</string>
+    <string name="home_text">ホーム</string>
+    <string name="main_text">メイン</string>
+    <string name="steak_text">ステーキ</string>
+    <string name="locomoco_text">ロコモコ</string>
+    <string name="burger_text">ハンバーガー</string>
+    <string name="thumb_text">サブ</string>
+    <string name="poki_text">ポキ</string>
+    <string name="bread_text">パン</string>
+    <string name="drink_text">ドリンク</string>
+    <string name="beer_text">ビール</string>
+    <string name="mail_text">メールする</string>
+    <string name="sms_text">SMSする</string>
+
+</resources>
